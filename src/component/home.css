@@ -1,0 +1,83 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body  h1{
+  font-size: 50px;
+  color: white;
+
+}
+.body p{
+    font-size: 20px;
+    color: white;
+    width: 1250px;
+}
+.body button{
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #6c5ce7;
+}
+.secondmain {
+   
+    width: 100%;
+    height: 500px;
+}
+.secondmain h1{
+    font-size: 45px;
+}
+.secondmain .icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.secondmain .icon .same{
+    font-size: 60px;
+    background-color: #6c5ce7;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.content .same h1,p{
+    width: 380px;
+    margin-top: 80px;
+    color: black;
+}
+.thirdmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    width: 100%;
+    height: 350px;
+}
+.thirdmain .icon{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.thirdmain .icon .same{
+    font-size: 60px;
+    color: white;
+}
+.thirdmain .content .same h1,p{
+   color: white;
+}
+.thirdmain .thirdcontent {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: black;
+}
+.thirdmain .thirdcontent h1,p{
+    color: white;
+}
